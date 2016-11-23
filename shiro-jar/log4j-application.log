@@ -1,0 +1,32 @@
+2016-10-14 18:17:23 INFO  Tutorial:25 - My First Apache Shiro Application
+2016-10-14 18:17:23 DEBUG ResourceUtils:159 - Opening resource from class path [shiro.ini]
+2016-10-14 18:17:23 DEBUG Ini:351 - Parsing [users]
+2016-10-14 18:17:23 DEBUG Ini:351 - Parsing [roles]
+2016-10-14 18:17:23 DEBUG IniFactorySupport:122 - Creating instance from Ini [sections=users,roles]
+2016-10-14 18:17:23 DEBUG IniRealm:179 - Discovered the [roles] section.  Processing...
+2016-10-14 18:17:23 DEBUG IniRealm:185 - Discovered the [users] section.  Processing...
+2016-10-14 18:24:13 INFO  Tutorial:26 - My First Apache Shiro Application
+2016-10-14 18:24:13 DEBUG ResourceUtils:159 - Opening resource from class path [shiro.ini]
+2016-10-14 18:24:13 DEBUG Ini:351 - Parsing [users]
+2016-10-14 18:24:13 DEBUG Ini:351 - Parsing [roles]
+2016-10-14 18:24:13 DEBUG IniFactorySupport:122 - Creating instance from Ini [sections=users,roles]
+2016-10-14 18:24:13 DEBUG IniRealm:179 - Discovered the [roles] section.  Processing...
+2016-10-14 18:24:13 DEBUG IniRealm:185 - Discovered the [users] section.  Processing...
+2016-10-14 18:24:13 DEBUG AbstractValidatingSessionManager:213 - No sessionValidationScheduler set.  Attempting to create default instance.
+2016-10-14 18:24:13 INFO  AbstractValidatingSessionManager:233 - Enabling session validation scheduler...
+2016-10-14 18:24:13 DEBUG DefaultSessionManager:175 - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+2016-10-14 18:24:13 INFO  Tutorial:45 - Retrieved the correct value! [aValue]
+2016-10-14 18:24:13 DEBUG AuthenticatingRealm:569 - Looked up AuthenticationInfo [lonestarr] from doGetAuthenticationInfo
+2016-10-14 18:24:13 DEBUG AuthenticatingRealm:507 - AuthenticationInfo caching is disabled for info [lonestarr].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - lonestarr, rememberMe=true].
+2016-10-14 18:24:13 DEBUG SimpleCredentialsMatcher:96 - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+2016-10-14 18:24:13 DEBUG SimpleCredentialsMatcher:102 - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+2016-10-14 18:24:13 DEBUG AbstractAuthenticator:233 - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - lonestarr, rememberMe=true].  Returned account [lonestarr]
+2016-10-14 18:24:13 DEBUG DefaultSubjectContext:102 - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2016-10-14 18:24:13 DEBUG DefaultSecurityManager:436 - Context already contains a session.  Returning.
+2016-10-14 18:24:13 DEBUG DefaultSubjectContext:102 - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2016-10-14 18:24:13 INFO  Tutorial:72 - User [lonestarr] logged in successfully.
+2016-10-14 18:24:13 INFO  Tutorial:76 - May the Schwartz be with you!
+2016-10-14 18:24:13 INFO  Tutorial:83 - You may use a lightsaber ring.  Use it wisely.
+2016-10-14 18:24:13 INFO  Tutorial:90 - You are permitted to 'drive' the winnebago with license plate (id) 'eagle5'.  Here are the keys - have fun!
+2016-10-14 18:24:13 DEBUG DefaultSecurityManager:550 - Logging out subject with primary principal lonestarr
+2016-10-14 18:24:13 DEBUG AbstractSessionManager:284 - Stopping session with id [f8f29c2d-ba55-4c50-a7ca-b1050e7b4529]
